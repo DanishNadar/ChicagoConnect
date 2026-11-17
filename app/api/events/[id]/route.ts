@@ -1,0 +1,1 @@
+import { NextResponse } from "next/server";import { eventById } from "@/lib/events";export async function GET(_:Request,{params}:{params:Promise<{id:string}>}){const item=await eventById((await params).id);return item?NextResponse.json({data:item}):NextResponse.json({error:"Event not found"},{status:404})}

@@ -1,0 +1,1 @@
+import { timingSafeEqual } from "crypto";export function authorized(request:Request,secret?:string){if(!secret)return false;const supplied=request.headers.get("authorization")?.replace(/^Bearer\s+/i,"")??request.headers.get("x-admin-secret")??"";const a=Buffer.from(supplied),b=Buffer.from(secret);return a.length===b.length&&timingSafeEqual(a,b)}

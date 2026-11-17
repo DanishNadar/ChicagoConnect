@@ -1,0 +1,1 @@
+import { NextResponse } from "next/server";import { eventSources } from "@/db/schema";import { db } from "@/lib/database";export async function GET(){return NextResponse.json({data:db?await db.select().from(eventSources):[]})}

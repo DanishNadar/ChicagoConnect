@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/admin/sync": {
+      "maxDuration": 60
+    },
+    "/api/cron/sync-events": {
+      "maxDuration": 60
+    },
+    "/api/events/export": {}
+  }
+}

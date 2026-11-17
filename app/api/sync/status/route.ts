@@ -1,0 +1,1 @@
+import { desc } from "drizzle-orm";import { NextResponse } from "next/server";import { ingestionRuns } from "@/db/schema";import { db } from "@/lib/database";export async function GET(){return NextResponse.json({data:db?(await db.select().from(ingestionRuns).orderBy(desc(ingestionRuns.startedAt)).limit(1))[0]??null:null})}

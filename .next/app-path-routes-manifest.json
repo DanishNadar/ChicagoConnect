@@ -1,0 +1,19 @@
+{
+  "/api/categories/route": "/api/categories",
+  "/api/events/[id]/ics/route": "/api/events/[id]/ics",
+  "/api/events/[id]/route": "/api/events/[id]",
+  "/_not-found/page": "/_not-found",
+  "/api/events/featured/route": "/api/events/featured",
+  "/api/events/route": "/api/events",
+  "/api/sources/route": "/api/sources",
+  "/api/stats/route": "/api/stats",
+  "/api/sync/status/route": "/api/sync/status",
+  "/api/admin/sync/route": "/api/admin/sync",
+  "/api/cron/sync-events/route": "/api/cron/sync-events",
+  "/api/events/export/route": "/api/events/export",
+  "/calendar/page": "/calendar",
+  "/events/[id]/page": "/events/[id]",
+  "/explore/page": "/explore",
+  "/page": "/",
+  "/pipeline/page": "/pipeline"
+}

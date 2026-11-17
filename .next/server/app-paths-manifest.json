@@ -1,0 +1,19 @@
+{
+  "/api/categories/route": "app/api/categories/route.js",
+  "/api/events/[id]/ics/route": "app/api/events/[id]/ics/route.js",
+  "/api/events/[id]/route": "app/api/events/[id]/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/events/featured/route": "app/api/events/featured/route.js",
+  "/api/events/route": "app/api/events/route.js",
+  "/api/sources/route": "app/api/sources/route.js",
+  "/api/stats/route": "app/api/stats/route.js",
+  "/api/sync/status/route": "app/api/sync/status/route.js",
+  "/api/admin/sync/route": "app/api/admin/sync/route.js",
+  "/api/cron/sync-events/route": "app/api/cron/sync-events/route.js",
+  "/api/events/export/route": "app/api/events/export/route.js",
+  "/calendar/page": "app/calendar/page.js",
+  "/events/[id]/page": "app/events/[id]/page.js",
+  "/explore/page": "app/explore/page.js",
+  "/page": "app/page.js",
+  "/pipeline/page": "app/pipeline/page.js"
+}
