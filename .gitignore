@@ -1,0 +1,14 @@
+# Dependencies and generated Next.js output
+node_modules/
+.next/
+out/
+
+# Local environment and logs
+.env.local
+.env*.local
+*.log
+
+# Test and build artifacts
+coverage/
+test-results/
+playwright-report/
